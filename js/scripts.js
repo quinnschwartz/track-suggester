@@ -14,19 +14,17 @@ $(document).ready(function() {
       if (computers === "no") {
         return ("If you don't like working with computers then maybe you should reconsider studying at Epicodus!");
       } else if (describe === "artistic") {
-        return ("Design!");
+        return ("CSS/Design!");
       } else if (describe === "logical" && attend === "January") {
-          return ("PHP!");
+          return ("PHP/Drupal!");
       } else if (mac === "PC" && describe === "logical") {
-          return ("C#!");
-      } else if (mac === "PC" && describe === "logical") {
-          return ("C#!");
+          return ("C#/.NET!");
       } else if (mac === "Mac" && describe === "logical") {
-          return ("Ruby!");
+          return ("Ruby/Rails!");
       }
     };
 
-
+        $(".name").text(name);
         $("#output").text(result);
         $("#track").show();
 
