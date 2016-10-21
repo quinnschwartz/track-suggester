@@ -8,13 +8,13 @@ $(document).ready(function() {
 
     var result = function(){
 
-      if (mac === "Mac" && company === "SQ1" && describe === "Artistic") {
+      if (mac === "Mac" && company === "SQ1" && describe === "artistic") {
         return ("Design!");
-      } else if (mac === "Mac" && company === "SQ1" && describe === "Logical") {
+      } else if (mac === "Mac" && company === "SQ1" && describe === "logical") {
           return ("PHP!");
-      } else if (mac === "PC" && company === "Microsoft" && describe === "Logical") {
+      } else if (mac === "PC" && company === "Microsoft" && describe === "logical") {
           return ("C#!");
-      } else if (mac === "Mac" && company === "Twitter" && describe === "Logical") {
+      } else if (mac === "Mac" && company === "Twitter" && describe === "logical") {
           return ("Ruby!");
       }
     };
