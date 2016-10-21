@@ -25,10 +25,24 @@
           </div>
 
           <div class="form-group">
+              <label for="computers">Do you prefer Mac or PC? (Type Mac or PC in the field)</label>
+              <input id="computers" class="form-control" type="text">
+          </div>
+
+          <div class="form-group">
           <label for="attend">When will you start attending classes at Epicodus?</label>
           <select id="attend" class="form-control" type="text">
             <option value="October">October</option>
             <option value="January">January</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="company">What company would you rather work for?</label>
+          <select id="company" class="form-control" type="text">
+            <option value="Microsoft">Microsoft</option>
+            <option value="Twitter">Twitter</option>
+            <option value="Sq1">SQ1 (Web design agency)</option>
           </select>
         </div>
 
@@ -46,20 +60,11 @@
                   </label>
                 </div>
 
-        <div class="form-group">
-          <label for="company">What company would you rather work for?</label>
-          <select id="company" class="form-control" type="text">
-            <option value="Microsoft">Microsoft</option>
-            <option value="Twitter">Twitter</option>
-            <option value="Sq1">SQ1 (Web design agency)</option>
-          </select>
-        </div>
-
         <button type="submit" class="btn">Calculate my track suggestion!</button>
       </form>
-
+      <h2>Your track suggestion is: <h2>
       <div id="trackSuggestion">
-        <h2>Your track suggestion is: <span id="output"></span>.</h2>
+      <h2><span id="output"></span></h2>
       </div>
       </div>
     </div>
