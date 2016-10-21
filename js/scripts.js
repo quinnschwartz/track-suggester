@@ -20,11 +20,11 @@ event.preventDefault();
 
 var result = function(){
 
-  if (age < 25 && gender === "male" && genderPref === "female") {
-    return ("Miley");
-  } else if (age <  25 && gender === "male" && genderPref === "male") {
-    return ("Brad");
-  } else if (age < 25 && gender === "female" && genderPref === "male") {
+  if ( computers === "no") {
+    return ("If you don't like computers then maybe you should reconsider attending Epicodus...");
+  } else if (attend === "October" || attend === "January" && describe === "Artistic") {
+    return ("Design!");
+  } else if (attend === "October" && describe === "Logical" && company === "Twitter") {
     return ("Craig");
   } else if (age < 25 && gender === "female" && genderPref === "female") {
     return ("Dina");
