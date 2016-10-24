@@ -10,58 +10,51 @@
   </head>
   <body>
     <div class="container">
+      <img src="img/gates.jpg" alt="picture of Bill Gates.">
       <h1>Epicodus Track Selector</h1>
       <h2><em>Fill out this survey to recieve a customized track suggestion.</em></h2>
-        <form>
-          <div class="form-group">
-              <label for="name">What is your name?</label>
-              <input id="name" class="form-control" type="text">
-          </div>
-
-          <div class="form-group">
-              <label for="computers">Do you like working with computers? (Type yes or no in the field)</label>
-              <input id="computers" class="form-control" type="text">
-          </div>
-
-          <div class="form-group">
-              <label for="macorpc">Do you prefer Mac or PC? (Type Mac or PC in the field)</label>
-              <input id="macorpc" class="form-control" type="text">
-          </div>
-
-
-          <p><strong>When will you start attending classes at Epicodus?</strong></p>
-          <select id="attend" class="form-control" type="text">
-            <option>October</option>
-            <option>January</option>
-          </select>
-
-
-        <p><strong>What company would you rather work for?</strong></p>
-          <select id="company" class="form-control" type="text">
-            <option>Microsoft</option>
-            <option>Twitter</option>
-            <option>SQ1</option>
-          </select>
-
-        <p><strong>Which of these words more accurately describes you?</strong></p>
-        <div class="radio">
-                  <label>
-                    <input type="radio" name="describe" value="artistic" checked>
-                    Artistic
-                  </label>
-                </div>
-                <div class="radio">
-                  <label>
-                    <input type="radio" name="describe" value="logical">
-                    Logical
-                  </label>
-                </div>
-
-          <button type="submit" class="btn btn-default">Calculate my track suggestion!</button>
-      </form>
-          <div id="track">
-            <p>Thanks for filling out our form <span class="name"></span>!  Your track suggestion is: <span id="output"></span></p>
-          </div>
+      <form>
+        <div class="form-group">
+            <label for="name">What is your name?</label>
+            <input id="name" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+            <label for="computers">Do you like working with computers? (Type yes or no in the field)</label>
+            <input id="computers" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+            <label for="macorpc">Do you prefer Mac or PC? (Type Mac or PC in the field)</label>
+            <input id="macorpc" class="form-control" type="text">
+        </div>
+        <p><strong>When will you start attending classes at Epicodus?</strong></p>
+        <select id="attend" class="form-control" type="text">
+          <option>October</option>
+          <option>January</option>
+        </select>
+      <p><strong>What company would you rather work for?</strong></p>
+      <select id="company" class="form-control" type="text">
+        <option>Microsoft</option>
+        <option>Twitter</option>
+        <option>SQ1</option>
+      </select>
+      <p><strong>Which of these words more accurately describes you?</strong></p>
+      <div class="radio">
+        <label>
+          <input type="radio" name="describe" value="artistic" checked>
+          Artistic
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="describe" value="logical">
+          Logical
+        </label>
+      </div>
+      <button type="submit" class="btn btn-default">Calculate my track suggestion!</button>
+    </form>
+    <div id="track">
+      <p><em>Thanks for filling out our form <strong><span class="name"></span></strong>!  Your track suggestion is: <strong><span id="output"></span></strong></em></p>
+    </div>
     </div>
   </body>
 </html>

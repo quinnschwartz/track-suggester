@@ -8,7 +8,6 @@ $(document).ready(function() {
     var company = $("#company").val();
     var describe = $("input:radio[name=describe]:checked").val();
 
-
     var result = function(){
 
       if (computers === "no") {
@@ -24,10 +23,10 @@ $(document).ready(function() {
       }
     };
 
-        $(".name").text(name);
-        $("#output").text(result);
-        $("#track").show();
+    $(".name").text(name);
+    $("#output").text(result);
+    $("#track").show();
 
-        event.preventDefault();
-        });
-      });
+  event.preventDefault();
+  });
+});

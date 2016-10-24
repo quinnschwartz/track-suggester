@@ -2,23 +2,29 @@
   display: none;
 }
 
+img {
+  display: inline-block;
+  float: right;
+  max-width: 250px;
+  margin-top: 20px;
+}
+
 body {
   background-color: #00b3b4;
-  font-family: Gadget;
+  font-family: Arial;
   font-size: 200%;
 }
 
 h1 {
-  text-align: center;
   font-weight: bold;
   font-size: 40pt;
-}
-
-img {
-  float: right;
+  margin-top:20px;
+  padding-bottom:15px;
+  text-align: center;
 }
 
 h2 {
+  margin-bottom: 15px;
   text-align: center;
 }
 
@@ -26,6 +32,19 @@ p {
   margin-top: 10px;
 }
 
+.container {
+  margin-bottom: 30px;
+}
+
 button {
-  m: inline-block
+  margin-top: 10px;
+}
+
+#track {
+  margin-top: 15px;
+  font-size: 23px;
+}
+
+form {
+  padding-top: 5%;
 }
