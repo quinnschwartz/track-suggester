@@ -20,7 +20,7 @@ $(document).ready(function() {
     event.preventDefault();
     var name = $("#name").val();
     var computers = $("#computers").val();
-    var mac = $("#macorpc").val();
+    var mac = $("#mac").val();
     var attend = $("#attend").val();
     var describe = $("input:radio[name=describe]:checked").val();
     var result = trackSuggestion(computers, mac, attend, describe);
